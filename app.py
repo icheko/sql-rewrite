@@ -31,7 +31,6 @@ def main():
         statement_values = replace_value(statement_values, insert_index, replacement_value)
         new_statement = statement_start + statement_values + statement_end
 
-        
         print ("\n\n-------------------------------------------------\nReplacing:\n")
         print (old_statement)
         print ("\nWith:\n")
